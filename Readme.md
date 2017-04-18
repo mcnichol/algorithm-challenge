@@ -1,5 +1,31 @@
 
-Google Cloud SDK Components that can be Installed
+
+
+### Links
+* https://cloud.google.com/compute/docs/gcloud-compute
+
+
+### Commands
+`gcloud help`
+
+`gcloud info`
+
+`gcloud config`
+- Change more **gcloud** settings
+ 
+`gcloud info`
+- gcloud displays a summary of information about your Cloud SDK installation. This includes information about your system, the installed SDK components, the active user account and current project, and the properties in the active SDK configuration.
+
+`gcloud config list` 
+- List Settings
+
+`gcloud auth list`
+- Displays a list of credentialed accounts
+
+`gcloud components install [COMPONENT]`
+- Installs components at the current version of your Cloud SDK installation
+
+### Google Cloud SDK Components
 
 |                    Name                              |             ID           |    Size   |
 |------------------------------------------------------|--------------------------|-----------|
@@ -21,9 +47,3 @@ Google Cloud SDK Components that can be Installed
 | Cloud SDK Core Libraries                             | core                     |   5.8 MiB | 
 | Cloud Storage Command Line Tool                      | gsutil                   |   2.9 MiB | 
 | Default set of gcloud commands                       | gcloud                   |     -     |
-
-
-
-###
-Helpful Links:
-* https://cloud.google.com/compute/docs/gcloud-compute
